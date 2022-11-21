@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 6. Forms</title>
+  </head>
+  <body>
+    <form>
+      <label for="username">Повне ім'я</label>
+      <input type="text" name="username" id="username" required />
+      <br />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required />
+      <br />
+      <br />
+      <label for="password">Пароль</label>
+      <input type="password" name="password" id="password" required />
+      <br />
+      <br />
+      <label for="password-confirm">Пароль ще раз</label>
+      <input
+        type="password"
+        name="password-confirm"
+        id="password-confirm"
+        required
+      />
+      <br />
+      <br />
+      <span>Стать</span>
+      <input type="radio" name="sex" id="female" value="Female" required />
+      <label for="female">жіноча</label>
+      <input type="radio" name="sex" id="male" value="Male" />
+      <label for="male">чоловіча</label>
+      <br />
+      <br />
+      <label for="age">Вік</label>
+      <input type="number" name="age" id="age" required />
+      <br />
+      <br />
+      <label for="course">Курс</label>
+      <select type="text" name="course" id="course" required>
+        <option value="qa-manual">QA Manual</option>
+        <option value="front-end">Front-End</option>
+        <option value="python">Python</option>
+        <option value="c#">C#</option>
+      </select>
+      <br />
+      <br />
+      <label for="address">Повна адреса</label>
+      <textarea
+        name="address"
+        id="address"
+        cols="25"
+        rows="5"
+        required
+      ></textarea>
+      <br />
+      <br />
+      <input type="checkbox" name="agreement" id="agreement" required />
+      <label for="agreement">Я погоджуюся з обробкою персональних даних</label>
+      <br />
+      <br />
+      <button type="reset">Очистити форму</button>
+      <button type="submit">Зареєструватися</button>
+    </form>
+  </body>
+</html>
