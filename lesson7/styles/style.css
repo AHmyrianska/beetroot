@@ -103,7 +103,7 @@ nav li {
     brightness(114%) contrast(91%);
 }
 
-.social {
+div.social-icons + p {
     font-size: 0.875rem;
     color: #828282;
     margin-top: 60px;
